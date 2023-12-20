@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #F2F2E6;
+}
+
+.contanier{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.header{
+    display: flex;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+.mainLogo{
+    margin-top: 3%;
+}
+.intermediate{
+    display: flex;
+    margin-top: 1.5%;
+}
+.mainHeader{
+    margin-top: 1%;
+    padding-left: 10%;
+}
+.headerRoportaj{
+    font-size: 40px;
+    font-weight: 750;
+    background: url(./img/roportaj-site.jpg) 30% 20%;
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.headerEspor{
+    padding-right: 120px;
+}
+.headerEspor:hover{
+    color: #F4B335;
+    transition: 0.5s;
+}
+.headerCsgo:hover{
+    color: #F4B335;
+    transition: 0.5s;
+}
+
+.rightSide {
+    display: flex;
+    margin-top: 1.5%;
+    padding-left: 10%;
+}
+.headerLol{
+    padding-left: 140px;
+}
+.headerLol:hover{
+    color: #F4B335;
+    transition: 0.5s;
+}
+.headerValorant{
+    padding-left: 120px;
+}
+.headerValorant:hover{
+    color: #F4B335;
+    transition: 0.5s;
+}
+.headerVp{
+    padding-left: 120px;
+}
+.headerVp:hover{
+    color: #F4B335;
+    transition: 0.5s;
+}
+.mainRoportaj{
+    display: flex;
+    margin-top: 8%;
+}
+.mainRoportajText{
+    margin-left: 5%;
+    margin-top: 8%;
+}
+.mainRoportajHeader{
+    font-size: 64px;
+    font-weight: 600;
+}
+.mainRoportajInfo{
+    font-size: 32px;
+    padding-top: 8%;
+}
+.mainRoportajImg{
+    border-radius: 15px;
+}
+.mainRoportajImg:hover{
+    border: 1px solid transparent;
+    background: linear-gradient( #F4B335, #000);
+    box-sizing: border-box;
+    filter: blur(1px);
+    transition: 0.5s;
+}
+.advert{
+    background: rgba(48, 46, 46, 0.8);
+    width: 100%;
+    height: 155px;
+    flex-shrink: 0;
+    margin-top: 8%;
+}
+.advertLogo{
+    margin-top: 3%;
+    margin-left: 40%;
+}
+
+.centerSide{
+    background-color: #F2F2E6;
+    width: 100%;
+}
+.newsCatalogNews{
+    margin-top: 8%;
+}
+.breakNews2{
+    margin-left: 2%;
+    margin-top: 5%;
+    cursor: pointer;
+    overflow-x: hidden;
+    display: flex;
+}
+.breakNews1{
+    margin-left: 2%;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+}
+.breakNewsImg:hover{
+    transform: scaleX(2.11);
+    transition: 1s;
+    padding-left: 38%;
+}
+.newsDetails{
+    margin-top: 5%;
+    margin-left: 5%;
+    z-index: 1;
+}
+.newsDetailsTittle{
+    font-size: 42px;
+}
+.newsDetailsText{
+    font-size: 22px;
+    margin-top: 5%;
+}
+.breakNews4{
+    margin-top: 5%;
+    padding-left: 2%;
+    cursor: pointer;
+    display: flex;
+}
+.breakNews3{
+    margin-top: 4%;
+    margin-left: 2%;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+}
+
+.bottomSide{
+    width: 100%;
+    border-radius: 30px 30px 0px 0px;
+    margin-top: 6%;
+    background-color: black;
+}
+.about{
+    padding-top: 8%;
+    margin-left: 2%;
+}
+.aboutTittle{
+    font-size: 50px;
+    color: #F2F2E6;
+}
+.aboutText{
+    max-width: 800px;
+    padding-top: 5%;
+    font-size: 24px;
+    color: #F2F2E6;
+}
+.follow{
+    margin-left: 2%;
+    padding-top: 5%;
+}
+.followText{
+    font-size: 30px;
+    color: #F2F2E6;
+}
+.socialMedia{
+    padding-top: 2%;
+}
+.instagram{
+    margin-left: 1.6%;
+}
+.youtube{
+    margin-left: 1.6%;
+}
+.bottomSideTittle{
+    margin-top: -28.5%;
+    margin-left: 70%;
+}
+.bottomSideCsgo{
+    font-size: 28px;
+    padding-top: 15%;
+    color: #F2F2E6;
+}
+.bottomSideValorant{
+    font-size: 28px;
+    padding-top: 15%;
+    color: #F2F2E6;
+}
+.bottomSideLol{
+    font-size: 28px;
+    padding-top: 15%;
+    color: #F2F2E6;
+}
+.bottomSideEspor{
+    font-size: 28px;
+    padding-top: 15%;
+    color: #F2F2E6;
+}
+.bottomSideRoportaj{
+    font-size: 28px;
+    padding-top: 35%;
+    color: #F2F2E6;
+}
+.bottomSideVp{
+    font-size: 28px;
+    padding-top: 35%;
+    color: #F2F2E6;
+}
+.bottomSideLeft{
+    margin-left: -15%;
+}
+.bottomSideRight{
+    margin-top: -64%;
+    margin-left: 50%;
+}
+.made{
+    padding-top: 5%;
+    color: #F2F2E6;
+    margin-left: 0.5%;
+    padding-bottom: 0.5%;
+}
