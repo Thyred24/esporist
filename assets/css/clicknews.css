@@ -18,12 +18,14 @@ body{
 }
 
 .header{
+    position: fixed;
     display: flex;
     font-size: 24px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    cursor: pointer;
+    margin-top: -4%;
+    background-color: #f2f2e6a9;
+    width: 100%;
+    backdrop-filter: blur(2px);
 }
 .mainLogo{
     margin-top: 3%;
@@ -87,6 +89,9 @@ body{
     margin-top: 5%;
     display: flex;
 }
+.newsImg{
+    margin-top: 2%;
+}
 .newsTextSide{
     margin-top: 5%;
     margin-left: 5%;
@@ -124,6 +129,13 @@ body{
 }
 .breakNews{
     padding: 3.5%;
+    display: block;
+}
+.breakNews:hover .breakNewsBox{
+    margin-top: -12.4%;
+    height: 24.6%;
+    border-radius: 15px;
+    transition: 0.5s;
 }
 .newsCatalogNews{
     margin-top: 3%;
@@ -138,12 +150,6 @@ body{
     background-color: rgba(0, 0, 0, 0.384);
     margin-top: -4.5%;
     backdrop-filter: blur(2px);
-}
-.breakNewsBox:hover{
-    margin-top: -12.4%;
-    height: 24.6%;
-    border-radius: 15px;
-    transition: 0.5s;
 }
 
 .breakNewsBoxText{
@@ -160,10 +166,9 @@ body{
     height: 225.106px;
     border-radius: 15px;
 }
-.breakNewsImg:hover{
+.breakNews:hover .breakNewsImg{
     box-shadow: 0px 4px 20px 2px #F4B335;
     transition: 0.5s;
-   
 }
 .newsDetails{
     margin-top: 5%;

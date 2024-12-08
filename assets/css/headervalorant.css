@@ -44,7 +44,7 @@ body{
     font-size: 40px;
     font-weight: 750;
     background: url(../imgs/csgo-image_hud3c572ca46463b7314b38aa612b1af3b_51172_1920x1080_resize_q100_lanczos.jpg) 50% 50%;
-    background-size: cover;
+    background-size: contain;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
